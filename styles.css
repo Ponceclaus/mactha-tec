@@ -1,9 +1,81 @@
 h1 {
-    background-color: blueviolet;  }
-h1 {
-    color: #0a6615;
+    background-color: #025157;
+ }
+ body {
+    background-color: #fffbf7;
+    margin: 0px;
 }
 
-button { color: antiquewhite;
-    background-color: aqua;
+h1 {
+    color: #c70000;
+    text-align: center;
 }
+
+p {
+    color: #8b8b8bcc;
+    font-family: verdana;
+    font-size: 20px;
+}
+
+button {
+    color: #fff;
+    background-color: #025157;
+}
+.header {
+    margin: 40px 20px 0px;
+    font-size: 0;
+}
+.header > * {
+display: inline-block;
+font-size: 16px;
+vertical-align: middle;
+height: 100%;
+line-height: 45px;
+}
+.header li {
+    display: inline;
+    margin: 0 15px;
+}
+.logo_matcha { width: 50px;
+}
+.imagen_matcha {
+    width: 20%;
+}
+.navbar {
+    width: 60%;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+}
+.actions {
+    width: 20%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+}
+.actions a {
+    color: #67b54b;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.actions button {
+    border-radius: 5px;
+    background-color: #67b54b;
+    color: #fff;
+    border: none;
+    padding: 20px;
+}
+.first-image { width:20%;
+}
+.second-image { width:50%;
+}
+
+.main {
+    text-align: center;
+}
+.mai h1{
+font-family: 'Alegreya', serif;
+
+ }
+
+{}
