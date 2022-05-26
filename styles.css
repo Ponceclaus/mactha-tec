@@ -67,7 +67,7 @@ line-height: 45px;
 }
 .first-image { width:20%;
 }
-.second-image { width:50%;
+.second-image { width:20%;
 }
 
 .main {
@@ -75,7 +75,50 @@ line-height: 45px;
 }
 .mai h1{
 font-family: 'Alegreya', serif;
-
+font-size: 48px;
+font-weight: 900;
+color: #025157;
  }
 
-{}
+.publish {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+
+ .publish .publicidad .titulo-publish {
+     font-family: Alegreya, serif;
+     font-size: 36px;
+     font-weight: 900;
+     color: #025157;
+     margin-top: 0px;
+ }
+
+ .publish .publicidad .color-gris {
+     color: #8b8b8bcc;
+ }
+
+.publish .video {
+    flex: 1;
+}
+
+ .publish .video .video-contenedor {
+    width: 90%;
+}
+
+.publish .video .video-contenedor .cuadro-video {
+    width: 100%;
+}
+
+.publish .video .see-how-it-works {
+    display: flex;
+    justify-content: center;
+}
+ .publish .video .see-how-it-works .green-arrow {
+     width: 50px;
+ }
+
+ .publish .publicidad {
+     flex: 1;
+ }
