@@ -4,29 +4,22 @@
       <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
       <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500;700;900&family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="styles.css">
-      <title>Matcha</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href= <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,500;1,700&family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500;700;900&family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
         <title>Matcha</title>
     </head>
     <body>
         <!-- Esta es la barra de navegacion -->
-       <section>
-         <section class="main-nav">
+        <section>
+          <section class="main-nav">
            <header class="header">
             <a href="/" class="imagen_matcha">
                 <img class="logo_matcha" src="Images/matcha-logo.svg" alt="Logo de Matcha">
             </a>
-         </section>
 
-            <nav class="navbar">
+            <!-- Inhabilitada
+   <nav class="navbar">
              <ul>
                  <li>Plataform</li>
                  <li>Pricing</li>
@@ -35,14 +28,16 @@
                  <li>About</li>
              </ul>
             </nav>
-          <div class="actions">
+            <div class="actions">
             <a href="/">Sign In</a>
             <button>Start Free Trial</button>
           </div>
-        </header>
+      -->
+
+    </header>
        </section>
 
-       <!-- Esta es la nueva barra de navegación con Bootstrap -->
+      <!-- Esta es la nueva barra de navegación con Bootstrap -->
        <nav class="main-nav-bg-color navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
@@ -79,35 +74,40 @@
 
         <!--Esta es la seccion inicial -->
         <section class="main">
-         <H1>Build your blog. Build your business.</H1>
-        <p>
-            Instantly publish articles, drive more traffic, grow your email list, and see your blog’s impact on sales.
-        </p>
+         <h1>Build your blog. Build your business.</h1>
+          <h4>
+            Instantly publish articles, drive more traffic, grow your email list, and see your blog’s impact on sales.</h4>
+
         <form>
             <input type="email" />
             <button type="submit" >
                  Try it now &rAarr;
             </button>
         </form>
-            <p>Start publishing today with a <strong>free 7-day trial.</strong>
+
+            <p class="color-gris-seccion-inicial">
+              Start publishing today with a <strong>free 7-day trial.</strong>
             </p>
-                 <strong>No credit card </strong>required.
+            <p class="color-gris-seccion-inicial">
+              <strong>No credit card </strong>required.
             </p>
-             <figure class="first-image">
-                  <img src="./Images/Capterra.png"  alt="Capterra">
+
+             <figure>
+                  <img class="first-image" src="./Images/Capterra.png"  alt="Capterra">
              </figure>
-           <figure class="second-image">
-               <img src="./Images/intro_group_image.png" alt="Intro to Matcha">
+           <figure>
+               <img class="second-image" src="./Images/intro_group_image.png" alt="Intro to Matcha">
            </figure>
         </section>
-       
+
         <section class="publish">
-<article class="video">
-    <div class="video-contenedor">
+          <article class="video">
+            <div class="video-contenedor">
          <video
          class="cuadro-video"
         poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg"
-        controls>
+        controls
+        >
      <source
      src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
      />
@@ -116,30 +116,32 @@
      />
       </video>
     </div>
-      
+
       <figure class="see-how-it-works">
  <img class="green-arrow" src="https://i.pinimg.com/474x/b0/61/de/b061de337ba79e850b40f7af96addc5a.jpg" alt="">
     <p>See how it works!</p>
       </figure>
-     
-</article>
-     
-    
+ </article>
+
       <!--Poner el texto de La Publicidad-->
       <article class="publicidad">
-          <h2 class="titulo-publish">Publish to your blog in minutes, not hours.
-          </h2>
+          <h2 class="titulo-publish">Publish to your blog in minutes, not hours.</h2>
       <p>
-    Your blog is your most powerful asset to build, engage, and retain a loyal audience. But you don’t have hours to create content that may or may not work. With Matcha, instantly publish from our library of 10,000+ professionally written articles and build your email list faster with our powerful conversion tool.</p>
+    Your blog is your most powerful asset to build, engage, and retain a loyal audience. But you don’t have hours to create content that may or may not work. With Matcha, instantly publish from our library of 10,000+ professionally written articles and build your email list faster with our powerful conversion tool.
+  </p>
       <p class="color-gris">Start publishing today:</p>
 
-      <form action="">
+      <form>
           <input type="e-mail" placeholder="Enter e-mail">
-          <button>Start My Trial
+          <button type="submit">
+            Start My Trial &rAarr;
           </button>
       </form>
       </article>
+
     </section>
+
+    
 
     <section class="card-container">
       <div class="container">
